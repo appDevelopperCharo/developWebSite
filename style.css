@@ -59,8 +59,10 @@ body {
 
 .container-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    position: relative;
+    width: 100%;
 }
 
 .logo-link {
@@ -83,6 +85,10 @@ body {
 
 .nav-links {
     list-style: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .nav-links a {
