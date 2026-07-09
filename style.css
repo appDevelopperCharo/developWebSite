@@ -221,6 +221,15 @@ body {
     background: radial-gradient(circle at 80% 50%, rgba(0, 255, 135, 0.08) 0%, transparent 50%);
 }
 
+.game-detail-hero.chronicle-theme {
+    background: radial-gradient(circle at 82% 42%, rgba(255, 150, 40, 0.1) 0%, transparent 52%);
+}
+
+.game-detail-hero.monsters-theme {
+    background: radial-gradient(circle at 18% 50%, rgba(255, 209, 102, 0.08) 0%, transparent 48%),
+                radial-gradient(circle at 82% 32%, rgba(0, 255, 135, 0.05) 0%, transparent 44%);
+}
+
 .game-flex {
     display: flex;
     align-items: center;
@@ -246,6 +255,16 @@ body {
     border: 1px solid #222;
 }
 
+.phone-frame.chronicle-theme {
+    border-color: rgba(255, 150, 40, 0.35);
+    box-shadow: 0 40px 80px rgba(0,0,0,0.55), 0 0 42px rgba(255, 150, 40, 0.12);
+}
+
+.phone-frame.monsters-theme {
+    border-color: rgba(255, 209, 102, 0.32);
+    box-shadow: 0 40px 80px rgba(0,0,0,0.55), 0 0 42px rgba(0, 255, 135, 0.1);
+}
+
 .screen-img {
     width: 100%;
     border-radius: 32px;
@@ -263,6 +282,14 @@ body {
     letter-spacing: 3px;
     margin-bottom: 1rem;
     display: inline-block;
+}
+
+.label.orange {
+    color: #ff9628;
+}
+
+.label.gold {
+    color: #ffd166;
 }
 
 .title-with-icon {
@@ -335,6 +362,22 @@ body {
 
 .store-badge:hover img {
     transform: scale(1.05);
+}
+
+.coming-soon-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 54px;
+    padding: 0 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-main);
+    font-family: var(--font-game);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 /* Gallery */
@@ -435,6 +478,27 @@ body {
         padding: 120px 0 60px;
         align-items: flex-start;
         text-align: center;
+    }
+
+    .subpage .container-header {
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .subpage .logo-text {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .subpage .nav-links {
+        position: static;
+        transform: none;
+    }
+
+    .subpage .nav-links a {
+        font-size: 0.65rem;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
     }
     
     .hero-text h1 {

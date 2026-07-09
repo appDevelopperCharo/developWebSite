@@ -10,6 +10,8 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         dungeonTamer: resolve(__dirname, 'dungeon-tamer.html'),
         slimeTap: resolve(__dirname, 'slime-tap.html'),
+        buildChronicle: resolve(__dirname, 'build-chronicle.html'),
+        buildMonsters: resolve(__dirname, 'build-monsters.html'),
       },
     },
   },
